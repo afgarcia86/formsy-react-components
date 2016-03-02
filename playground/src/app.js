@@ -93,7 +93,7 @@ class Playground extends React.Component {
         return (
             <div className="row">
                 <div className="page-header">
-                    <h1>Form Playground</h1>
+                    <h1>Form Playground  (Bootstrap v4)</h1>
                 </div>
                 <h3>Options…</h3>
                 <Options
