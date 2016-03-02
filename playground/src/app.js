@@ -191,6 +191,7 @@ class Playground extends React.Component {
                             name="file1"
                             label="File picker"
                             help="Warning: this returns a FileList that will need custom coding to be useful."
+                            required
                             multiple
                         />
                     </fieldset>
