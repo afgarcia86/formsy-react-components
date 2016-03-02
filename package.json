@@ -1,5 +1,5 @@
 {
-  "name": "formsy-react-components-playground",
+  "name": "formsy-react-components",
   "version": "0.0.1",
   "scripts": {
     "release": "NODE_ENV=production gulp default",
