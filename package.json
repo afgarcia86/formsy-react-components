@@ -6,7 +6,7 @@
   "dependencies": {
     "browserify": "^13.0.0",
     "formsy-react": "^0.17.0",
-    "formsy-react-components": "https://github.com/afgarcia86/formsy-react-components/tree/master/release",
+    "formsy-react-components": "https://github.com/afgarcia86/formsy-react-components/blob/master/frc-v4-release.tar.gz?raw=true",
     "gulp": "^3.9.0",
     "gulp-notify": "~2.2.0",
     "gulp-util": "~3.0.4",
