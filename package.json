@@ -1,4 +1,6 @@
 {
+  "name": "formsy-react-components-playground",
+  "version": "0.0.1",
   "scripts": {
     "release": "NODE_ENV=production gulp default",
     "lint": "eslint playground/app.js --rule 'quotes: 1' --rule 'no-trailing-spaces: 1' --quiet"
