@@ -63,6 +63,7 @@ class Playground extends React.Component {
         var newState = {};
         newState[name] = value;
         this.setState(newState);
+        console.log("onBlur: "+value)
     }
 
     render() {
@@ -133,7 +134,7 @@ class Playground extends React.Component {
                             label="Text"
                             type="text"
                             placeholder="Here is a text input."
-                            help="This is a required text input."
+                            help="This is a required text input. It updates state onBlur"
                             onBlur={this.changeOnBlur}
                             required
                         />
