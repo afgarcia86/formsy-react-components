@@ -58,6 +58,13 @@ class Playground extends React.Component {
         this.setState(newState);
     }
 
+    changeOnBlur(name, value) {
+        console.log(name, value)
+        var newState = {};
+        newState[name] = value;
+        this.setState(newState);
+    }
+
     render() {
 
         var radioOptions = [
@@ -127,6 +134,7 @@ class Playground extends React.Component {
                             type="text"
                             placeholder="Here is a text input."
                             help="This is a required text input."
+                            onBlur={this.changeOnBlur}
                             required
                         />
                         <Input
