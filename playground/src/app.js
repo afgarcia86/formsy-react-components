@@ -38,6 +38,7 @@ class Playground extends React.Component {
 
         // Bind this
         this.changeOption = this.changeOption.bind(this);
+        this.changeOnBlur = this.changeOnBlur.bind(this);
         this.submitForm = this.submitForm.bind(this);
         this.resetForm = this.resetForm.bind(this);
     }
@@ -58,12 +59,7 @@ class Playground extends React.Component {
         this.setState(newState);
     }
 
-    pretendChange(name, value) {
-        console.log("nothing")
-    }
-
     changeOnBlur(name, value) {
-        console.log(name, value)
         var newState = {};
         newState[name] = value;
         this.setState(newState);
@@ -138,7 +134,6 @@ class Playground extends React.Component {
                             type="text"
                             placeholder="Here is a text input."
                             help="This is a required text input."
-                            onChange={this.pretendChange}
                             onBlur={this.changeOnBlur}
                             required
                         />
