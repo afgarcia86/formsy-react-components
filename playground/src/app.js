@@ -29,6 +29,7 @@ class Playground extends React.Component {
     constructor(props) {
         super(props);
 
+
         // Default state
         this.state = {
             layout: 'horizontal',
