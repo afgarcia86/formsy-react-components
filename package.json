@@ -1,5 +1,5 @@
 {
-  "name": "formsy-react-components",
+  "name": "formsy-react-components-playground",
   "version": "0.0.1",
   "scripts": {
     "release": "NODE_ENV=production gulp default",
@@ -8,7 +8,7 @@
   "dependencies": {
     "browserify": "^13.0.0",
     "formsy-react": "^0.17.0",
-    "formsy-react-components": "http://github.com/afgarcia86/formsy-react-components.git",
+    "formsy-react-components": "afgarcia86/formsy-react-components",
     "gulp": "^3.9.0",
     "gulp-notify": "~2.2.0",
     "gulp-util": "~3.0.4",
