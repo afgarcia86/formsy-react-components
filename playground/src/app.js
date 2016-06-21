@@ -319,14 +319,14 @@ class Playground extends React.Component {
                             value=""
                             label="Add-on before"
                             type="text"
-                            addonBefore={<span className="glyphicon glyphicon-search"></span>}
+                            addonBefore={<i className="fa fa-search"></i>}
                         />
                         <Input
                             name="addon-after"
                             value=""
                             label="Add-on after"
                             type="text"
-                            addonAfter={<span className="glyphicon glyphicon-search"></span>}
+                            addonAfter={<i className="fa fa-search"></i>}
                         />
                         <Input
                             name="button-before"
